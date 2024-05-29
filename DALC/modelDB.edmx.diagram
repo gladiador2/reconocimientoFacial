@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9a06a40ee2f747c1b239133abe1328ca" Name="Diagram1">
+        <EntityTypeShape EntityType="ReconocimientoModel.Antecedentes" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Ciudad" Width="1.5" PointX="10.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Departamento" Width="1.5" PointX="8" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Fotos" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Pais" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Permisos" Width="1.5" PointX="3.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.PermisosPorRoles" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Personas" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Roles" Width="1.5" PointX="3.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ReconocimientoModel.Usuarios" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="ReconocimientoModel.FK_Antecedentes_Personas" ManuallyRouted="false" />
+        <AssociationConnector Association="ReconocimientoModel.FK_Ciudad_Departamento" ManuallyRouted="false" />
+        <AssociationConnector Association="ReconocimientoModel.FK_Departamento_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="ReconocimientoModel.FK_Fotos_Personas" ManuallyRouted="false" />
+        <AssociationConnector Association="ReconocimientoModel.FK_PermisosPorRoles_Permisos" ManuallyRouted="false" />
+        <AssociationConnector Association="ReconocimientoModel.FK_PermisosPorRoles_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="ReconocimientoModel.FK_Usuarios_Personas" ManuallyRouted="false" />
+        <AssociationConnector Association="ReconocimientoModel.FK_Usuarios_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

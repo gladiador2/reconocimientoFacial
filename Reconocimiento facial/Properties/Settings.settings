@@ -1,0 +1,29 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Reconocimiento_facial.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UsersFaceConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\bin\Debug\UsersFace.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\bin\Debug\UsersFace.mdb</Value>
+    </Setting>
+    <Setting Name="ReconocimientoEntities1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;"metadata=res://*/modelDB.csdl|res://*/modelDB.ssdl|res://*/modelDB.msl;provider=System.Data.SqlClient;provider connection string=&amp;amp;quot;data source=Fury;initial catalog=Reconocimiento;persist security info=True;user id=sa;password=1;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&amp;amp;quot;"&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">"metadata=res://*/modelDB.csdl|res://*/modelDB.ssdl|res://*/modelDB.msl;provider=System.Data.SqlClient;provider connection string=&amp;quot;data source=Fury;initial catalog=Reconocimiento;persist security info=True;user id=sa;password=1;trustservercertificate=True;MultipleActiveResultSets=True;App=EntityFramework&amp;quot;"</Value>
+    </Setting>
+    <Setting Name="ReconocimientoConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=Fury;Initial Catalog=Reconocimiento;Persist Security Info=True;User ID=sa;Password=1;TrustServerCertificate=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=Fury;Initial Catalog=Reconocimiento;Persist Security Info=True;User ID=sa;Password=1;TrustServerCertificate=True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
